@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище StudentDiaryModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DiaryRecords">
+    <Key>
+      <PropertyRef Name="RecordID" />
+    </Key>
+    <Property Name="RecordID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentID" Type="int" />
+    <Property Name="SubjectID" Type="int" />
+    <Property Name="RecordDate" Type="date" Nullable="false" />
+    <Property Name="GradeValue" Type="nvarchar" MaxLength="10" />
+    <Property Name="HomeworkText" Type="nvarchar(max)" />
+    <Property Name="TeacherComment" Type="nvarchar(max)" />
+    <Property Name="TeacherID" Type="int" />
+    <Property Name="IsPresent" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupName" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+    </Key>
+    <Property Name="SubjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="GroupID" Type="int" />
+  </EntityType>
+  <Association Name="FK__DiaryReco__Stude__403A8C7D">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="DiaryRecords" Type="Self.DiaryRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="DiaryRecords">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DiaryReco__Subje__412EB0B6">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="DiaryRecords" Type="Self.DiaryRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="DiaryRecords">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DiaryReco__Teach__4222D4EF">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="DiaryRecords" Type="Self.DiaryRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="DiaryRecords">
+        <PropertyRef Name="TeacherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleID__440B1D61">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiaryRecords_Subjects">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="DiaryRecords" Type="Self.DiaryRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="DiaryRecords">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Groups">
+    <End Role="Groups" Type="Self.Groups" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище StudentDiaryModelContainer">
+    <EntitySet Name="DiaryRecords" EntityType="Self.DiaryRecords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Groups" EntityType="Self.Groups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DiaryReco__Stude__403A8C7D" Association="Self.FK__DiaryReco__Stude__403A8C7D">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="DiaryRecords" EntitySet="DiaryRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DiaryReco__Subje__412EB0B6" Association="Self.FK__DiaryReco__Subje__412EB0B6">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="DiaryRecords" EntitySet="DiaryRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DiaryReco__Teach__4222D4EF" Association="Self.FK__DiaryReco__Teach__4222D4EF">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="DiaryRecords" EntitySet="DiaryRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleID__440B1D61" Association="Self.FK__Users__RoleID__440B1D61">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiaryRecords_Subjects" Association="Self.FK_DiaryRecords_Subjects">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="DiaryRecords" EntitySet="DiaryRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Groups" Association="Self.FK_Users_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
