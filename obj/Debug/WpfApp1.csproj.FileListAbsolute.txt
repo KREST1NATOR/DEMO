@@ -18,9 +18,7 @@ C:\Users\mitya\source\repos\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Windows\MainWindow.g.cs
-C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Windows\UsersWindow.g.cs
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Windows\MainWindow.baml
-C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Windows\UsersWindow.baml
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Pages\MenuPage.g.cs
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Pages\UsersPage.g.cs
 C:\Users\mitya\source\repos\WpfApp1\obj\Debug\Pages\MenuPage.baml

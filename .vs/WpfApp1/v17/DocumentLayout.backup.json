@@ -7,43 +7,12 @@
       "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\windows\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:windows\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\pages\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:pages\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\windows\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:windows\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\pages\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:pages\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|c:\\users\\mitya\\source\\repos\\wpfapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{93114807-948E-4CC9-A05F-DD3F17378774}|WpfApp1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mitya\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,56 +42,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pages\\MenuPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MenuPage.xaml.cs",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml.cs",
-              "RelativeToolTip": "Pages\\MenuPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:08:20.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuPage.xaml",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\MenuPage.xaml",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml",
-              "RelativeToolTip": "Pages\\MenuPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T12:06:01.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pages\\UsersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\UsersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml.cs",
-              "RelativeToolTip": "Pages\\UsersPage.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T11:54:15.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\UsersPage.xaml",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml",
-              "RelativeToolTip": "Pages\\UsersPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T11:53:03.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\MainWindow.xaml",
@@ -130,83 +49,31 @@
               "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\MainWindow.xaml",
               "RelativeToolTip": "Windows\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T11:50:44.328Z",
+              "WhenOpened": "2025-06-10T20:01:39.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEditUserWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\AddEditUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Windows\\AddEditUserWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\AddEditUserWindow.xaml.cs",
-              "RelativeToolTip": "Windows\\AddEditUserWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:28:12.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Windows\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Windows\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T11:50:46.745Z",
+              "DocumentIndex": 2,
+              "Title": "UsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\UsersPage.xaml",
+              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\UsersPage.xaml",
+              "RelativeToolTip": "Pages\\UsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T20:01:02.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddEditUserWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\AddEditUserWindow.xaml",
-              "RelativeDocumentMoniker": "Windows\\AddEditUserWindow.xaml",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Windows\\AddEditUserWindow.xaml",
-              "RelativeToolTip": "Windows\\AddEditUserWindow.xaml",
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MenuPage.xaml",
+              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\Pages\\MenuPage.xaml",
+              "RelativeToolTip": "Pages\\MenuPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T12:15:49.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\mitya\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\mitya\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwCsAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:10:32.971Z",
-              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-09T12:10:43.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\mitya\\source\\repos\\WpfApp1\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T12:10:46.361Z",
+              "WhenOpened": "2025-06-10T20:00:53.569Z",
               "EditorCaption": ""
             }
           ]
